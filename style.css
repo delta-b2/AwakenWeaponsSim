@@ -1,0 +1,85 @@
+/*---------- index.html -----------*/
+
+a.header-a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+header{
+    color: aliceblue;
+}
+.header-logo{
+    font-size: 50px;
+    
+}
+.header{
+    height: 100px;
+    text-align: center;
+    background-color: #888;
+    color:  #fff;
+}
+.weapon-table{
+    margin: 30px;
+}
+
+/* --------- weapon -------------*/
+div.notice{
+    padding: 5px;
+    border: solid black;
+    margin: 5px;
+}
+
+.sbox {
+    height: 14px;
+}
+
+span {
+    display: inline-block;
+    height: 100%;
+}
+
+.sbox div {
+    display: inline-block;
+    height: 14px;
+    font-size: 0px;
+}
+
+.s0 {
+    background-color: #bc0b43;
+    color: #bc0b43;
+}
+
+.s1 {
+    background: #f45600;
+    color: #f45600;
+}
+
+.s2 {
+    background: #ffc836;
+    color: #ffc836;
+}
+
+.s3 {
+    background: #4de200;
+    color: #4de200;
+}
+
+.s4 {
+    background: #647FF6;
+    color: #647FF6
+}
+
+.s5 {
+    background: #fff;
+    color: #fff;
+}
+
+.s6 {
+    background-color: purple;
+    color: purple;
+}
+
+.s7 {
+    background-color: grey;
+    color: grey;
+}

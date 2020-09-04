@@ -1,0 +1,122 @@
+<!DOCTYPE html><!-- version 1.0 ハンマー-->
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>覚醒武器シミュ（ハンマー）</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <header class="header">
+            <div class="header-logo"><a class="header-a" href="./index.html">覚醒武器シミュ</a></div>
+        </header>
+        <main>
+            <h1>ハンマー</h1>
+            <div class="form-wrapper">
+                <form name="sim">
+                    武器:
+                    <select name="weapon">
+                        <option value="1" selected="selected">赤龍ノ掴ム槌・火</option>
+                        <option value="1">赤龍ノ掴ム槌・水</option>
+                        <option value="1">赤龍ノ掴ム槌・雷</option>
+                        <option value="1">赤龍ノ掴ム槌・氷</option>
+                        <option value="1">赤龍ノ掴ム槌・龍</option>
+                        <option value="2">赤龍ノ掴ム槌・睡眠</option>
+                        <option value="2">赤龍ノ掴ム槌・麻痺</option>
+                        <option value="3">赤龍ノ掴ム槌・爆破</option>
+                        <option value="3">赤龍ノ掴ム槌・毒</option>
+                    </select>
+                    <br>
+                    スキル1:
+                    <select name="skil_1">
+                        <option value="atk" selected="selected">攻撃力強化VI</option>
+                        <option value="crt">会心率強化VI</option>
+                        <option value="elm">属性強化VI</option>
+                        <option value="sharp">切れ味強化VI</option>
+                        <option value="def">防御力強化VI</option>
+                        <option value="slot">スロット強化IV</option>
+                    </select>
+                    <br>
+                    スキル2:
+                    <select name="skil_2">
+                        <option value="atk" selected="selected">攻撃力強化V</option>
+                        <option value="crt">会心率強化V</option>
+                        <option value="elm">属性強化V</option>
+                        <option value="sharp">切れ味強化V</option>
+                        <option value="def">防御力強化V</option>
+                        <option value="slot">スロット強化Ⅲ</option>
+                    </select>
+                    <br>
+                    スキル3:
+                    <select name="skil_3">
+                        <option value="atk" selected="selected">攻撃力強化V</option>
+                        <option value="crt">会心率強化V</option>
+                        <option value="elm">属性強化V</option>
+                        <option value="sharp">切れ味強化V</option>
+                    </select>
+                    <br>
+                    スキル4:
+                    <select name="skil_4">
+                        <option value="atk" selected="selected">攻撃力強化V</option>
+                        <option value="crt">会心率強化V</option>
+                        <option value="elm">属性強化V</option>
+                        <option value="sharp">切れ味強化V</option>
+                    </select>
+                    <br>
+                    スキル5:
+                    <select name="skil_5">
+                        <option value="atk" selected="selected">攻撃力強化V</option>
+                        <option value="crt">会心率強化V</option>
+                        <option value="elm">属性強化V</option>
+                        <option value="sharp">切れ味強化V</option>
+                        <option value="series">シリーズスキル</option>
+                    </select>
+                    <br>
+                    <input style="width: 30%;height: 50px;padding: 10px;" type="button" value="GO" name="start05" onclick="
+                        Start05()">
+                </form>
+            </div>
+            
+            <br>
+            <div class="result">
+                <table border="1">
+                    <tr>
+                        <th>攻撃力:</th>
+                        <th id="atkResult"></th>
+                    </tr>
+                    <tr>
+                        <th>会心率:</th>
+                        <th id="crtResult"></th>
+                    </tr>
+                    <tr>
+                        <th>属性値:</th>
+                        <th id="elmResult"></th>
+                    </tr>
+                    <tr>
+                        <th>スロット:</th>
+                        <th id="slotResult"></th>
+                    </tr>
+                    <tr>
+                        <th>切れ味:</th>
+                        <th id="sharpResult" style="background-color: #ccc;">
+                            <div class="sbox">
+                                <span class="s0" id="s0"></span><!--
+                                --><span class="s1" id="s1"></span><!--
+                                --><span class="s2" id="s2"></span><!--
+                                --><span class="s3" id="s3"></span><!--                       
+                                --><span class="s4" id="s4"></span><!--
+                                --><span class="s5" id="s5"></span><!--
+                                --><span class="s6" id="s6"></span><!--
+                                --><span class="s7" id="s7"></span>
+                            </div>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>シリーズスキル:</th>
+                        <th id="seriesResult"></th>
+                    </tr>
+                </table>
+            </div>
+            <script src="./scripts.js" charset="utf-8"></script>
+        </main>
+    </body>
+</html>
